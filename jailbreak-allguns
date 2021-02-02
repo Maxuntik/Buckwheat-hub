@@ -1,0 +1,35 @@
+for i=1,7 do
+wait(.02)
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(11.8937483, 19.668396, -1723.76379) + Vector3.new(1,0,0)
+end
+wait(0.05)
+local UI = require(game:GetService("ReplicatedStorage").Module:WaitForChild("UI"));
+for i,v in pairs (UI.CircleAction.Specs) do
+if v.Name == "Grab" then
+v:Callback(v, true)
+end
+end
+wait(0.1)
+for i=1,7 do
+wait(.02)
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(788.144226, 20.6668549, -148.559204) + Vector3.new(1,0,0)
+end
+wait(0.05)
+local UI = require(game:GetService("ReplicatedStorage").Module:WaitForChild("UI"));
+for i,v in pairs (UI.CircleAction.Specs) do
+if v.Name == "Grab" then
+v:Callback(v, true)
+end
+end
+wait(0.1)
+for i=1,7 do
+wait(.02)
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-309.690399, 19.3684883, 288.376099) + Vector3.new(1,0,0)
+end
+wait(0.05)
+local UI = require(game:GetService("ReplicatedStorage").Module:WaitForChild("UI"));
+for i,v in pairs (UI.CircleAction.Specs) do
+if v.Name == "Grab" then
+v:Callback(v, true)
+end
+end
